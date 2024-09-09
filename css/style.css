@@ -1,0 +1,289 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* nav style */ 
+nav {
+    background-color: #333;
+    color: white; /* Text color */
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav a { /* for link */
+    color: white; 
+    text-decoration: none; 
+    margin: 0 10px; 
+}
+
+nav a:hover {
+    text-decoration: underline; /* Underlines when hovering */
+}
+
+/* footer styles */ 
+footer { /* for link */
+    background-color: #333;
+    color: white;
+    padding: 20px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+}
+
+footer a {
+    color: white; 
+    text-decoration: none; 
+    margin: 0 10px; 
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* splash page */ 
+.splash {
+    background-image: url('splash-background.jpg');
+    background-size: cover; 
+    background-position: center; 
+    color: black; 
+    padding: 100px 10px; 
+    text-align: center; 
+    position: relative; 
+}
+
+.splash h1 {
+    font-family: 'Cabin Sketch'; 
+    font-size: 5em;
+    color: #333;
+    margin-bottom: 20px;
+} 
+
+.splash p {
+    margin: 10px 0;
+    font-family: 'Roboto', Georgia, serif;
+}
+
+.splash img {
+    border-radius: 50%; 
+    width: 300px; 
+    height: 375px; 
+    margin-top: 10px; 
+    border: 5px solid black;
+
+}
+
+/*Education section */
+.education h2{ 
+    font-family: 'Roboto', Georgia, serif; 
+    font-size: 2em;
+    text-shadow: 2px 2px 2px #ababab;
+    color: #333;
+    margin-bottom: 20px;
+    padding: 10px;
+
+}
+
+.education p { 
+    padding: 10px;
+    margin: 10px;
+    color: #333; 
+    font-family: 'Roboto', Georgia, serif; 
+    font-size: .9em;
+    border: 2px solid black;
+
+}
+
+
+
+/* Honors section */ 
+.honors h2{ 
+    font-family: 'Roboto', Georgia, serif; 
+    font-size: 2em;
+    text-shadow: 2px 2px 2px #ababab;
+    color: #333;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.honors dl dt {
+    display: inline-block; 
+    width: auto;
+    margin: 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.honors dl { 
+    padding: 10px;
+    color: #333; 
+    font-family: 'Roboto', Georgia, serif; 
+    font-size: .9em;
+}
+/* Skills section */ 
+
+.skills h2{ 
+    font-family: 'Roboto', Georgia, serif; 
+    font-size: 2em;
+    text-shadow: 2px 2px 2px #ababab;
+    color: #333;
+    margin-bottom: 20px;
+    padding: 10px;
+
+}
+
+/* Unordered list formatting */ 
+.skills ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 0;
+    margin: 20px;
+    list-style-type: none;
+}
+
+.skills ul li {
+    margin: 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.skills dl { 
+    padding: 10px;
+    color: #333; 
+    font-family: 'Roboto', Georgia, serif; 
+    font-size: .9em;
+}
+
+/* Leadership section */ 
+.leadership h2{ 
+    font-family: 'Roboto', Georgia, serif; 
+    font-size: 2em;
+    text-shadow: 2px 2px 2px #ababab;
+    color: #333;
+    margin-bottom: 20px;
+    padding: 10px;
+
+}
+
+.leadership a {
+    color: #333; 
+    text-decoration: none; 
+    transition: transform 0.2s, text-decoration 0.2s; 
+}
+
+
+.leadership a:hover {
+    text-decoration: underline; 
+    text-shadow: .5px .5px .5px #ababab;
+}
+
+.leadership dl dt {
+    display: inline-block; 
+    width: auto;
+    margin: 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.leadership dl { 
+    padding: 10px;
+    color: #333; 
+    font-family: 'Roboto', Georgia, serif; 
+    font-size: .9em;
+}
+
+/* Projects section */ 
+.projects h2{ 
+    font-family: 'Roboto', Georgia, serif; 
+    font-size: 2em;
+    text-shadow: 2px 2px 2px #ababab;
+    color: #333;
+    margin-bottom: 20px;
+    padding: 10px;
+
+}
+
+.three-col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 10px; 
+}
+
+.card { 
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.2);
+    transition: .3s;
+    padding: 1rem;
+    
+}
+.card:hover { 
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 1);
+
+}
+
+.card img { 
+    max-width: 100%;
+    height: auto;
+}
+
+/* contact */ 
+.contactHead { 
+    font-family: 'Roboto', Georgia, serif; 
+    font-size: 2em;
+    text-shadow: 2px 2px 2px #ababab;
+    color: #333;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.contactP { 
+    margin: 10px 0;
+    font-family: 'Roboto', Georgia, serif;
+    margin: 10px; 
+}
+
+/* contact box formatting */ 
+.one-col { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    max-width: 600px; 
+    margin: 10px auto; 
+    padding: 20px; 
+    border: 1px solid #ddd; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .1);
+    background-color: #f9f9f9;
+}
+.one-col input[type="text"],
+.one-col input[type="email"],
+.one-col textarea {
+    width: 100%; 
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Roboto', Georgia, serif;
+}
+
+
+
+
+
